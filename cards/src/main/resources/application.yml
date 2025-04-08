@@ -15,4 +15,23 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
       ddl-auto: update
-    show-sql: true
+    show-sql:
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - "qa"
+
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to cards related local APIs"
+  contactDetails:
+    name: "Hoang Nguyen - Software Engineer"
+    email: "hoangnq011@gmail.com"
+  onCallSupport:
+    - (555) 555-9999
+    - (555) 555 8888
