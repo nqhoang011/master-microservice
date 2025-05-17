@@ -1,0 +1,11 @@
+build:
+  version: "2.1"
+
+cards:
+  message: "Welcome to cards related QA APIs"
+  contactDetails:
+    name: "Hoang Nguyen - QA Lead"
+    email: "hoangnq011@gmail.com"
+  onCallSupport:
+    - (555) 555-7777
+    - (555) 555 6666
