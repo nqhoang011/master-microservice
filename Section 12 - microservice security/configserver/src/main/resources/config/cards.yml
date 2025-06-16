@@ -1,0 +1,11 @@
+build:
+  version: "3.1"
+
+cards:
+  message: "Welcome to cards related local APIs"
+  contactDetails:
+    name: "Hoang Nguyen - Software Engineer"
+    email: "hoangnq011@gmail.com"
+  onCallSupport:
+    - (555) 555-9999
+    - (555) 555 8888

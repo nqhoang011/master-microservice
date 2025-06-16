@@ -1,0 +1,11 @@
+build:
+  version: "3.2"
+
+loans:
+  message: "Welcome to loans related local APIs"
+  contactDetails:
+    name: "Hoang Nguyen - Software Engineer"
+    email: "hoangnq011@gmail.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 555 1345
